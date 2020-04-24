@@ -33,19 +33,19 @@ $ qmlscene nubank/main.qml
 
 ### :grey_question: About
 
-WhatsApp is a cross-platform messaging and Voice over IP (VoIP) service.
-It allows users to send text messages and voice messages, make voice and
-video calls, and share images, documents, user locations, and other media.
+WhatsApp is a cross-platform messaging and VoIP service. It allows users
+to send text messages and voice messages, make voice and video calls,
+and share images, documents, user locations, and other media.
 
 ### :star: Highlights
 
-• Home screen
+• Header with dropshadow effect
 <br/>
-• Card animation (swipe down to show menu)
+• Mobile-friendly tab navigation (swiping sideways with animation)
 <br/>
-• Menu
+• Rounded user picture using pure QML (opacity mask)
 <br/>
-• Sliding tab buttons
+• Animated message list
 
 ### :computer: Running
 
