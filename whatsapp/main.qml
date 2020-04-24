@@ -86,31 +86,7 @@ Rectangle {
                 anchors.leftMargin: 15
                 anchors.rightMargin: 15
 
-                model: ListModel {
-                    ListElement {
-                        name: "João"
-                        image: "https://randomuser.me/api/portraits/men/1.jpg"
-                        lastMessage: "Testando"
-                        lastActivity: "00:00"
-                        newMessages: 0
-                    }
-
-                    ListElement {
-                        name: "Maria"
-                        image: "https://randomuser.me/api/portraits/women/1.jpg"
-                        lastMessage: "Testando mensagem"
-                        lastActivity: "12:00"
-                        newMessages: 10
-                    }
-
-                    ListElement {
-                        name: "Pedro"
-                        image: "https://randomuser.me/api/portraits/men/2.jpg"
-                        lastMessage: "Testando last message muito grande que nao cabe"
-                        lastActivity: "15:00"
-                        newMessages: 6
-                    }
-                }
+                model: MessagesModel{}
 
                 delegate: ListViewDelegate{
                 }
